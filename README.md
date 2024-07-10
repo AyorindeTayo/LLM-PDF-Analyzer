@@ -30,7 +30,17 @@ OPENAI_API_KEY=your_openai_api_key
 npm install
 ```
 # Run the Flask API 
+
+to create run-flask.bat in the folder structure, in windows, run code below in the command window
+```
+@echo off
+call venv\Scripts\activate
+set FLASK_APP=src\app.py
+set FLASK_ENV=development
+flask run
+```
 - Run the Flask API using the provided shell script:
 ```
-python app.py
+run-flask.bat
+
 ```
