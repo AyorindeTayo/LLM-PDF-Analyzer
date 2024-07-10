@@ -42,5 +42,9 @@ flask run
 - Run the Flask API using the provided shell script:
 ```
 run-flask.bat
-
 ```
+- Build and Run the Docker Container
+```
+docker-compose up
+```
+
